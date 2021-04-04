@@ -347,7 +347,7 @@ form button,
 form input[type="reset"] {
     background: #e7edf1;
     display: inline-block;
-    padding: 10px 25px;
+    /*padding: 10px 25px;*/
     border-radius: 5px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
     color: #8e9ca5;
