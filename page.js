@@ -14,6 +14,29 @@ function draw() {
     }
 
     var x1, x2, x3, x4, x5, x6;
+
+    //判断各参数输入的范围是否正确
+    if (InputData[0] < 0.35 || InputData[0] > 0.75) {
+        alert("请在正确的Output Voltage范围内输入参数\n单击'确定'继续");
+        return;
+    } else if (InputData[1] < 1.0 || InputData[1] > 2.2) {
+        alert("请在正确的Back Pressure范围内输入参数\n单击'确定'继续");
+        return;
+    } else if (InputData[2] < 1.2 || InputData[2] > 1.6) {
+        alert("请在正确的Anode stoichiometry ratio范围内输入参数\n单击'确定'继续");
+        return;
+    } else if (InputData[3] < 1.6 || InputData[3] > 2.4) {
+        alert("请在正确的 Cathode stoichiometry ratio范围内输入参数\n单击'确定'继续");
+        return;
+    } else if (InputData[4] < 0.5 || InputData[5] > 1.0) {
+        alert("请在正确的Anode relative humidity范围内输入参数\n单击'确定'继续");
+        return;
+    } else if (InputData[5] < 0.5 || InputData[5] > 1.0) {
+        alert("请在正确的Cathode relative humidity范围内输入参数\n单击'确定'继续");
+        return;
+    }
+
+
     //判断x1
     if (InputData[0] <= 0.4) {
         x1 = 0;
