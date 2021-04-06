@@ -277,13 +277,15 @@ body {
 
 h1,
 h2,
-h3,
 h4,
+h3,
 h5,
 h6 {
     font-weight: 700;
+    font-family: "Arial";
     margin: 0 0 20px;
     line-height: normal;
+    color: #000;
 }
 
 hr {
@@ -916,7 +918,10 @@ form input.white[type="reset"] {
         width: 50%;
     }
     .col-md-4 {
-        width: 33.3333333333%;
+        width: 50%;
+    }
+    .col-md-41 {
+        width: 100%;
     }
     .col-md-5 {
         width: 41.6666666667%;
@@ -928,7 +933,7 @@ form input.white[type="reset"] {
         width: 58.3333333333%;
     }
     .col-md-8 {
-        width: 66.6666666667%;
+        width: 100%;
     }
     .col-md-9 {
         width: 75%;
@@ -1599,15 +1604,16 @@ form input.white[type="reset"] {
 .main-navigation .menu .menu-item a {
     font-size: 13px;
     font-size: 0.8666666667em;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 400;
     padding: 32px 20px;
     display: block;
-    color: #8e9ca5;
+    color: #000;
     -webkit-transition: .3s ease;
     transition: .3s ease;
     border-bottom: 2px solid transparent;
     line-height: normal;
+    font-family: "Arial";
 }
 
 .main-navigation .menu .menu-item.current-menu-item a,
@@ -1639,7 +1645,7 @@ form input.white[type="reset"] {
     padding: 15px 20px;
     display: block;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
     -webkit-transition: .3s ease;
     transition: .3s ease;
 }
@@ -1659,8 +1665,10 @@ form input.white[type="reset"] {
 }
 
 .hero {
-    *zoom: 1;
+    /**zoom: 1;*/
     position: relative;
+    width: 100%;
+    height: 714px;
 }
 
 .hero:after {
@@ -1673,7 +1681,7 @@ form input.white[type="reset"] {
 
 .hero .slides {
     list-style: none;
-    *zoom: 1;
+    /**zoom: 1;*/
 }
 
 .hero .slides:after {
@@ -1705,6 +1713,8 @@ form input.white[type="reset"] {
     font-size: 60px;
     font-size: 4em;
     font-weight: 300;
+    font-family: "Times New Roman";
+    color: white;
 }
 
 .hero .slide-content p {
@@ -1789,6 +1799,7 @@ form .hero .slide-content input[type="reset"] {
     font-size: 4em;
     font-weight: 300;
     margin: 0 0 10px;
+    color: white;
 }
 
 .page-head small {
@@ -1802,8 +1813,10 @@ form .hero .slide-content input[type="reset"] {
 
 .section-title {
     font-size: 30px;
-    font-size: 2em;
+    font-size: 1.2em;
     font-weight: 300;
+    font-family: "Arial";
+    color: #000;
     margin-bottom: 30px;
 }
 
@@ -1824,12 +1837,15 @@ form .hero .slide-content input[type="reset"] {
     font-size: 30px;
     font-size: 2em;
     font-weight: 300;
+    font-family: "Times New Roman";
+    color: #000
 }
 
 .feature p {
     font-size: 16px;
     font-size: 1.0666666667em;
     margin-bottom: 30px;
+    color: #000
 }
 
 .post {
@@ -1853,7 +1869,10 @@ form .hero .slide-content input[type="reset"] {
     font-size: 24px;
     font-size: 1.6em;
     font-weight: 300;
+    font-family: "Arial";
     margin: 0 0 10px;
+    text-align: center;
+    color: #000
 }
 
 .post .date {
@@ -2123,7 +2142,7 @@ ol.circle li h3 {
 .boxed-icon h3 {
     font-weight: 300;
     font-size: 30px;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .project-list {
@@ -2314,4 +2333,26 @@ figure img {
 
 .arrow-list.has-border li:last-child {
     border-bottom: none;
+}
+
+.p_size {
+    font-size: 1.0em;
+    font-family: "Times New Roman";
+    text-indent: 2em;
+    text-align: left;
+}
+
+.p_size1 {
+    font-size: 1.0em;
+    color: #000;
+    font-family: "Times New Roman";
+    text-indent: 2em;
+    text-align: left;
+}
+
+.p_size2 {
+    font-size: 1.0em;
+    color: #000;
+    font-family: "Times New Roman";
+    text-align: center;
 }

@@ -302,7 +302,7 @@ function draw() {
         colorscale: 'Jet',
     }];
     var layout = {
-        title: '图'
+        title: '阳极催化层与微孔层氢气浓度分布图(mol/m^3)'
     };
     Plotly.newPlot('pic', data, layout);
 }
