@@ -1734,8 +1734,8 @@ form .hero .slide-content input[type="reset"] {
 }
 
 .hero .flex-control-nav {
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    bottom: 80px;
     width: 100%;
     left: 0;
     z-index: 8;
