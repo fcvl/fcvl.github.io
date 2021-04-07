@@ -1527,6 +1527,7 @@ form input.white[type="reset"] {
 .branding .logo-type .site-title {
     margin: 0 0 5px;
     font-size: 16px;
+    font-family: "Arial";
     font-size: 1.0666666667em;
 }
 
@@ -1710,10 +1711,9 @@ form input.white[type="reset"] {
 }
 
 .hero .slide-content .slide-title {
-    font-size: 60px;
     font-size: 4em;
     font-weight: 300;
-    font-family: "Times New Roman";
+    font-family: "Arial";
     color: white;
 }
 
@@ -1812,7 +1812,6 @@ form .hero .slide-content input[type="reset"] {
 }
 
 .section-title {
-    font-size: 30px;
     font-size: 1.2em;
     font-weight: 300;
     font-family: "Arial";
@@ -1834,10 +1833,9 @@ form .hero .slide-content input[type="reset"] {
 }
 
 .feature .feature-title {
-    font-size: 30px;
     font-size: 2em;
     font-weight: 300;
-    font-family: "Times New Roman";
+    font-family: "Arial";
     color: #000
 }
 
@@ -2105,6 +2103,8 @@ ol.circle li h3 {
 .testimonial-list li blockquote cite {
     font-weight: 400;
     font-style: normal;
+    font-family: "Arial";
+    color: #000;
 }
 
 .boxed-icon {
@@ -2126,6 +2126,12 @@ ol.circle li h3 {
     position: absolute;
     left: 30px;
     top: 30px;
+}
+
+.boxed-icon .icon_1 {
+    position: absolute;
+    left: 30px;
+    top: 70px;
 }
 
 @media screen and (max-width: 640px) {
@@ -2337,22 +2343,32 @@ figure img {
 
 .p_size {
     font-size: 1.0em;
-    font-family: "Times New Roman";
+    font-family: "Arial";
     text-indent: 2em;
     text-align: left;
+    text-align: justify;
 }
 
 .p_size1 {
     font-size: 1.0em;
     color: #000;
-    font-family: "Times New Roman";
+    font-family: "Arial";
     text-indent: 2em;
     text-align: left;
+    text-align: justify;
 }
 
 .p_size2 {
     font-size: 1.0em;
     color: #000;
-    font-family: "Times New Roman";
+    font-family: "Arial";
+    text-align: center;
+    text-align: justify;
+}
+
+.p_size21 {
+    font-size: 1.0em;
+    color: #000;
+    font-family: "Arial";
     text-align: center;
 }
