@@ -17,7 +17,7 @@ body {
 
 .body_left {
     width: 98%;
-   
+    height: 500px;
     /* background-color: aqua; */
     /*float: left;*/
     border-style: solid;
