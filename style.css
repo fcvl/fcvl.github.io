@@ -404,7 +404,7 @@ form input.white[type="reset"] {
 
 @media (min-width: 768px) {
     .container {
-        width: 750px;
+        width: 90%;
     }
 }
 
@@ -1706,7 +1706,7 @@ form input.white[type="reset"] {
     text-align: center;
     padding-top: 300px;
     color: white;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -1718,8 +1718,7 @@ form input.white[type="reset"] {
 }
 
 .hero .slide-content p {
-    font-size: 24px;
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
 .hero .slide-content .button,
@@ -1987,8 +1986,7 @@ form .cta input[type="reset"] {
 }
 
 .team .team-name {
-    font-size: 16px;
-    font-size: 1.0666666667em;
+    font-size: 2em;
     font-weight: 400;
 }
 
@@ -2111,7 +2109,7 @@ ol.circle li h3 {
     /* border-radius: 5px;*/
     border: 1px solid #edf2f4;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    padding: 30px 30px 50px 450px;
+    padding: 30px 30px 50px 350px;
     position: relative;
     margin-bottom: 30px;
 }
@@ -2124,14 +2122,14 @@ ol.circle li h3 {
 
 .boxed-icon .icon {
     position: absolute;
-    left: 30px;
-    top: 30px;
+    left: 10px;
+    top: 100px;
 }
 
 .boxed-icon .icon_1 {
     position: absolute;
-    left: 30px;
-    top: 70px;
+    left: 10px;
+    top: 150px;
 }
 
 @media screen and (max-width: 640px) {
