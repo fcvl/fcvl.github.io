@@ -89,7 +89,7 @@ body {
 }
 
 .button_draw {
-    width: 80px;
+    width: 100px;
     height: 40px;
     font-family: "Arial";
 }
@@ -99,4 +99,9 @@ body {
     width: 100%;
     text-align: center;
     color: #000;
+}
+
+.picture_name {
+    left: 50px;
+    bottom: 10px;
 }
