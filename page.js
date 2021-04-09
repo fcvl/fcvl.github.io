@@ -306,7 +306,7 @@ function draw_rh() {
 
     }];
     var layout = {
-        title: 'Humidity  distribution <br>( interface of anode gas diffusion layer (GDL) and micro-porous layer (MPL) ',
+        title: 'Humidity  distribution <br>( interface of anode gas diffusion layer (GDL) and micro-porous layer (MPL) )',
         xaxis: {
             title: 'X: The long side of the flow field (mm)'
 
@@ -992,7 +992,7 @@ function draw_t() {
 
     }];
     var layout = {
-        title: 'Temperature  distribution <br>( interface of anode gas diffusion layer (GDL) and micro-porous layer (MPL) (T: K)',
+        title: 'Temperature  distribution <br>( interface of anode gas diffusion layer (GDL) and micro-porous layer (MPL) (T: K))',
         xaxis: {
             title: 'X: The long side of the flow field (mm)'
 
